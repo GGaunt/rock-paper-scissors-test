@@ -23,5 +23,10 @@ function getComputerChoice() {
 function playGame() {
 
 }
+//get the id from the html element
+function onPlayerChose(id) {
+    console.log(id);
+    playGame(id);
+}
 
 playGame();
