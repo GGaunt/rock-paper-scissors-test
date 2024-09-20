@@ -18,9 +18,9 @@ function getComputerChoice() {
     }
 
     return computerChoice;
-};
+}
 
-function playgame() {
+function playGame() {
 
 }
 
