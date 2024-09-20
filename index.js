@@ -1,8 +1,6 @@
-console.log("Hello world!");
-
-let round = 0;
-let humanScore = 0;
-let computerScore = 0;
+var round = 0;
+var humanScore = 0;
+var computerScore = 0;
 
 function getComputerChoice() {
     let computerChoice = Math.floor(Math.random() * 3) + 1;
